@@ -74,7 +74,7 @@ Supervisor 启动的时候会同时启动 Kcptun，运行 kcptun 相关命令时
     iptables -t nat -nL
 
 =============================================================================
-## 感谢扩软博客的脚本与教程
+## 感谢     [扩软博客](https://blog.kuoruan.com)   的脚本与教程
 ### 详细访问
 [KCPTUN](https://blog.kuoruan.com/110.html)   
 [OpenVZ-BBR](https://blog.kuoruan.com/116.html)   
