@@ -41,8 +41,6 @@ cat >&2 <<-'EOF'
 # 脚本作者: Xingwang Liao <kuoruan@gmail.com>         #
 # 作者博客: https://blog.kuoruan.com/                 #
 # Github: https://github.com/kuoruan/shell-scripts    #
-# QQ交流群: 43391448, 68133628                        #
-#           633945405                                 #
 #######################################################
 EOF
 
