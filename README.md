@@ -1,9 +1,6 @@
 
 # [English - Explanation](https://github.com/jcry/shell-scripts/blob/master/English.md)   
 
-## Shell-Scripts
-No modified backup script, feel free to use
-
 ## KCPTUN
 理论上脚本支持大部分 Linux 发行版（x86 和 x64）
 已更新到v20，请以前版本的朋友可以直接更新，请先切换到 kcptun.sh 文件目录下运行
