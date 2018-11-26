@@ -4,7 +4,7 @@ No modified backup script, feel free to use
 理论上脚本支持大部分 Linux 发行版（x86 和 x64）
 已更新到v20，请以前版本的朋友可以直接更新，请先切换到 kcptun.sh 文件目录下运行
 
-     wget --no-check-certificate https://github.com/kuoruan/shell-scripts/raw/master/kcptun/kcptun.sh
+     wget --no-check-certificate https://github.com/jcry/shell-scripts/raw/master/kcptun/kcptun.sh
      chmod +x ./kcptun.sh
      ./kcptun.sh
  
@@ -42,7 +42,7 @@ Supervisor 启动的时候会同时启动 Kcptun，运行 kcptun 相关命令时
 
 已测试通过的系统： Ubuntu 14.04 x64、Ubuntu 16.04 x64、CentOS 6 x64、CentOS 7 x64 只支持 64 位系统，要求 glibc 版本 2.14 以上。
 
-    wget https://raw.githubusercontent.com/kuoruan/shell-scripts/master/ovz-bbr/ovz-bbr-installer.sh
+    wget https://raw.githubusercontent.com/jcry/shell-scripts/master/ovz-bbr/ovz-bbr-installer.sh
     chmod +x ovz-bbr-installer.sh
     ./ovz-bbr-installer.sh
 
