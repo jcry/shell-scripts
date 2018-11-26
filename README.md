@@ -1,7 +1,8 @@
-# Shell-Scripts
-No modified backup script, feel free to use
 
 # [English - Explanation](https://github.com/jcry/shell-scripts/blob/master/English.md)   
+
+# Shell-Scripts
+No modified backup script, feel free to use
 
 ## KCPTUN
 理论上脚本支持大部分 Linux 发行版（x86 和 x64）
