@@ -28,7 +28,7 @@ KCPTUN_RELEASES_URL='https://api.github.com/repos/xtaci/kcptun/releases'
 KCPTUN_LATEST_RELEASE_URL="${KCPTUN_RELEASES_URL}/latest"
 KCPTUN_TAGS_URL='https://github.com/xtaci/kcptun/tags'
 
-BASE_URL='https://github.com/kuoruan/shell-scripts/raw/master/kcptun'
+BASE_URL='https://github.com/jcry/shell-scripts/raw/master/kcptun'
 SHELL_VERSION_INFO_URL="${BASE_URL}/version.json"
 
 JQ_LINUX32_URL="${BASE_URL}/bin/jq-linux32"
@@ -83,8 +83,6 @@ cat >&1 <<-'EOF'
 # 脚本作者: Index <kuoruan@gmail.com>                   #
 # 作者博客: https://blog.kuoruan.com/                   #
 # Github: https://github.com/kuoruan/shell-scripts      #
-# QQ交流群: 43391448, 68133628                          #
-#           633945405                                   #
 #########################################################
 EOF
 
