@@ -1,18 +1,21 @@
 # shell-scripts
 Linux Shell Scripts
 ## KCPTUN
-脚本已更新到v20，请以前版本的朋友可以直接更新，请先切换到 kcptun.sh 文件目录下运行
+理论上脚本支持大部分 Linux 发行版（x86 和 x64）
+已更新到v20，请以前版本的朋友可以直接更新，请先切换到 kcptun.sh 文件目录下运行
 
      wget --no-check-certificate https://github.com/kuoruan/shell-scripts/raw/master/kcptun/kcptun.sh
      chmod +x ./kcptun.sh
      ./kcptun.sh
  
 ### Supervisor 相关命令：
-    1
+
     service supervisord {start|stop|restart|status}
+    
 ### Kcptun 相关命令：
-    1
+
     supervisorctl {start|stop|restart|status} kcptun
+    
 Supervisor 启动的时候会同时启动 Kcptun，运行 kcptun 相关命令时先确保 Supervisor 已启动。
 
 ### 其他说明
@@ -68,3 +71,9 @@ Supervisor 启动的时候会同时启动 Kcptun，运行 kcptun 相关命令时
 然后检查 iptables 规则
 
     iptables -t nat -nL
+
+=============================================================================
+## 感谢扩软博客的脚本与教程
+### 详细访问
+[KCPTUN](https://blog.kuoruan.com/110.html)   
+[OpenVZ-BBR](https://blog.kuoruan.com/116.html)   
